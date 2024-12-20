@@ -37,3 +37,24 @@ const myFunction = function () {
     console.log("hello world");
 }
 
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = " Ritik Sharma "
+
+let anothername = myYoutubename
+anothername = "travel.com"
+
+ console.log(anothername);
+ console.log(myYoutubename);
+ 
+let userOne = {
+    email: "user@hoo.com",
+    id: 22,
+}
+
+let usertwo = userOne
+usertwo.email = "youtube@"
+
+console.log(userOne.email);
+console.log(usertwo.email);
